@@ -71,11 +71,19 @@
     /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     gap: 50px;
-    margin-left: 70px;   
+    margin-left: 70px;  
+    text-align: left; 
+    font-size: x-large;
 }
+[child-left|=ice-cream]{
+    font-size: xx-large;
+    color: pink;
+}
+
+ 
 
 
  .child-img1{
@@ -131,13 +139,14 @@
 }
 .brown-sugar-text{
      /* border: 1px solid black; */
-     width: 100%;
+     /* width: 100%; */
      height: 300px;
      display: flex;
-     align-items: center;
+     /* align-items: center; */
      flex-direction: column;
      justify-content: center;
      gap: 20px;
+     text-align: left;
 
 
 
